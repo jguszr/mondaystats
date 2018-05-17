@@ -36,9 +36,37 @@ def test_integration():
     print(type(f))
     #print(f)
     print(type(f[1]))
+    lst = []
     for d in f :
-        print(d["pulse"]["name"])
+        rec = {}
+        rec["name"] = d["pulse"]["name"]
+        rec["created_at"] = d["pulse"]["created_at"]
+        rec["updated_at"] = d["pulse"]["updated_at"]
+        rec["group_id"] = d["board_meta"]["group_id"]
+        ## handling column_values 
+        for c in d["column_values"]:
+            try:
+                rec["Assignee"] = handle_internal_value(c, "Assignee", "name")
+                rec["Priority"] = handle_internal_value(c, "Priority", "index")
+                rec["Status"] = handle_internal_value(c, "Status", "index")
+                rec["Estimado"] = handle_internal_value(c, "Estimado", "")
+                rec["Realizado"] = handle_internal_value(c, "Realizado", "")
+                rec["Plataformas"] = handle_internal_value(c, "Plataformas", "")
+            except:
+                continue
+        lst.append(rec)
+    return lst
 
-    # return build_dataset(x)
+def handle_internal_value(c, required_title, returning_field):
+    if c["title"]==required_title:
+        if returning_field=="":
+            return c["value"]
+        else:
+            try:
+                return c["value"][returning_field]
+            except:
+                raise
+        
+    
 
-test_integration()
+print(test_integration())
