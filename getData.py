@@ -26,16 +26,12 @@ def get_board_pulses(board_id):
     pulses = requests.get("https://api.monday.com:443/v1/boards/"+str(board_id)+"/pulses.json?per_page=25&api_key="+str(KEY_TOKEN))
     return pulses.content
 
-def build_dataset(json_content):
-    return pd.read_json(json_content)
+        
 
-def test_integration():
+def prepare_data():
     mb = get_board_by_name("MainBoard",get_all_boards())
     x = get_board_pulses(mb["id"])
     f = json.loads(x)
-    print(type(f))
-    #print(f)
-    print(type(f[1]))
     lst = []
     for d in f :
         rec = {}
@@ -55,7 +51,7 @@ def test_integration():
             except:
                 continue
         lst.append(rec)
-    return lst
+    return pd.DataFrame(lst)
 
 def handle_internal_value(c, required_title, returning_field):
     if c["title"]==required_title:
@@ -66,7 +62,6 @@ def handle_internal_value(c, required_title, returning_field):
                 return c["value"][returning_field]
             except:
                 raise
-        
-    
 
-print(test_integration())
+                
+print(prepare_data())
