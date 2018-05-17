@@ -23,34 +23,48 @@ def get_board_by_name(board_name, json_content):
 
 def get_board_pulses(board_id):
     print("get_board_pulses(board_id):")
-    pulses = requests.get("https://api.monday.com:443/v1/boards/"+str(board_id)+"/pulses.json?per_page=25&api_key="+str(KEY_TOKEN))
-    return pulses.content
+    page = 0
+    lst_of_pulses = []
+    while True:
+        pulses = requests.get("https://api.monday.com:443/v1/boards/"+str(board_id)+"/pulses.json?page="+str(page)+"&per_page=25&order_by=updated_at_desc&api_key="+str(KEY_TOKEN))
+        if len(pulses.content) != 2:
+            lst_of_pulses.append(pulses.content)
+        else:
+            break
+        page +=1
+
+    return lst_of_pulses
 
         
 
 def prepare_data():
     mb = get_board_by_name("MainBoard",get_all_boards())
     x = get_board_pulses(mb["id"])
-    f = json.loads(x)
+    lst_of_boards = []
+    for i in x:
+        lst_of_boards.append(json.loads(i))
+
     lst = []
-    for d in f :
-        rec = {}
-        rec["name"] = d["pulse"]["name"]
-        rec["created_at"] = d["pulse"]["created_at"]
-        rec["updated_at"] = d["pulse"]["updated_at"]
-        rec["group_id"] = d["board_meta"]["group_id"]
-        ## handling column_values 
-        for c in d["column_values"]:
-            try:
-                rec["Assignee"] = handle_internal_value(c, "Assignee", "name")
-                rec["Priority"] = handle_internal_value(c, "Priority", "index")
-                rec["Status"] = handle_internal_value(c, "Status", "index")
-                rec["Estimado"] = handle_internal_value(c, "Estimado", "")
-                rec["Realizado"] = handle_internal_value(c, "Realizado", "")
-                rec["Plataformas"] = handle_internal_value(c, "Plataformas", "")
-            except:
-                continue
-        lst.append(rec)
+    for f in lst_of_boards:
+        for d in f :
+            rec = {}
+            rec["name"] = d["pulse"]["name"]
+            rec["created_at"] = d["pulse"]["created_at"]
+            rec["updated_at"] = d["pulse"]["updated_at"]
+            rec["group_id"] = d["board_meta"]["group_id"]
+            ## handling column_values 
+            for c in d["column_values"]:
+                try:
+                    rec["Assignee"] = handle_internal_value(c, "Assignee", "name")
+                    rec["Priority"] = handle_internal_value(c, "Priority", "index")
+                    rec["Status"] = handle_internal_value(c, "Status", "index")
+                    rec["Estimado"] = handle_internal_value(c, "Estimado", "")
+                    rec["Realizado"] = handle_internal_value(c, "Realizado", "")
+                    rec["Plataformas"] = handle_internal_value(c, "Plataformas", "")
+                except:
+                    continue
+            lst.append(rec)
+
     return pd.DataFrame(lst)
 
 def handle_internal_value(c, required_title, returning_field):
@@ -63,5 +77,5 @@ def handle_internal_value(c, required_title, returning_field):
             except:
                 raise
 
-                
+
 print(prepare_data())
