@@ -92,5 +92,12 @@ def handle_internal_value(c, required_title, returning_field):
             except:
                 raise
 
-ds = prepare_data()
+def handle_ds(data):
+    data["Estimado"] = pd.to_numeric(data["Estimado"]) 
+    data["Realizado"] = pd.to_numeric(data["Realizado"]) 
+
+    return data
+
+ 
+ds = handle_ds(prepare_data())
 #print(ds.head(20))
