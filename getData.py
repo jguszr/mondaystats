@@ -5,6 +5,7 @@ from requests.auth import HTTPBasicAuth
 import json
 import objectpath
 import pandas as pd
+import matplotlib.pyplot as plt
 
 global KEY_TOKEN
 KEY_TOKEN = "2494b9d018b6e9699f352d72f3c0fd76"
@@ -100,4 +101,5 @@ def handle_ds(data):
 
  
 ds = handle_ds(prepare_data())
+ds.to_csv("complete.csv")
 #print(ds.head(20))
