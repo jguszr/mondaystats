@@ -53,16 +53,31 @@ def prepare_data():
             rec["updated_at"] = d["pulse"]["updated_at"]
             rec["group_id"] = d["board_meta"]["group_id"]
             ## handling column_values 
+            rec["Assignee"] = None
+            rec["Priority"] = None
+            rec["Status"] = None
+            rec["Estimado"] = None
+            rec["Realizado"] = None
+            rec["Plataformas"] = None
+
             for c in d["column_values"]:
                 try:
-                    rec["Assignee"] = handle_internal_value(c, "Assignee", "name")
-                    rec["Priority"] = handle_internal_value(c, "Priority", "index")
-                    rec["Status"] = handle_internal_value(c, "Status", "index")
-                    rec["Estimado"] = handle_internal_value(c, "Estimado", "")
-                    rec["Realizado"] = handle_internal_value(c, "Realizado", "")
-                    rec["Plataformas"] = handle_internal_value(c, "Plataformas", "")
+                    if rec["Assignee"] == None:
+                        rec["Assignee"] = handle_internal_value(c, "Assignee", "name")
+                    if rec["Priority"] == None:
+                        rec["Priority"] = handle_internal_value(c, "Priority", "index")
+                    if rec["Status"] == None:
+                        rec["Status"] = handle_internal_value(c, "Status", "index")
+                    if rec["Estimado"] == None:
+                        rec["Estimado"] = handle_internal_value(c, "Estimado", "")
+                    if rec["Realizado"] == None:
+                        rec["Realizado"] = handle_internal_value(c, "Realizado", "")
+                    if rec["Plataformas"] == None:
+                        rec["Plataformas"] = handle_internal_value(c, "Plataformas", "")
+                    print(rec)
                 except:
                     continue
+            
             lst.append(rec)
 
     return pd.DataFrame(lst)
@@ -77,5 +92,5 @@ def handle_internal_value(c, required_title, returning_field):
             except:
                 raise
 
-
-print(prepare_data())
+ds = prepare_data()
+#print(ds.head(20))
