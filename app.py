@@ -3,15 +3,16 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import plotly.graph_objs as go
 import pandas as  pd
-#import getData 
+import getData 
 
 colors = {
     'background': '#111111',
     'text': '#7FDBFF'
 }
 
-
+ds = getData.handle_ds(getData.prepare_data())
 
 app = dash.Dash("Going2 Power !")
 
@@ -31,8 +32,30 @@ app.layout = html.Div([
             }
         ),
         html.Div([
-            dcc.Graph(id='team_speed'),
-        ], className='twelve columns wind-speed'),
+            dcc.Graph(
+                id='team_speed',
+                figure = go.Figure(
+                    data=[
+                        go.Bar(
+                            x=ds["group_id"],
+                            y=ds["Estimado"],
+                            name = "Total Sprint"
+
+                        )
+                    ],
+                    layout=go.Layout(
+                    title='Estimativa geral por Sprint',
+                    showlegend=True,
+                    legend=go.Legend(
+                    x=0,
+                    y=1.0
+            ),
+            margin=go.Margin(l=40, r=0, t=40, b=30)
+        )
+
+                )
+            ),
+        ], className='teamSpeed'),
         dcc.Interval(id='wind-speed-update', interval=1000, n_intervals=0),
     ], className='row wind-speed-row'),
 
