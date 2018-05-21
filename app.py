@@ -13,7 +13,7 @@ colors = {
 }
 
 ds = getData.handle_ds(getData.prepare_data())
-
+bySprint = ds.groupby(ds.group_id)["Estimado"].sum()
 app = dash.Dash("Going2 Power !")
 
 server = app.server
@@ -37,9 +37,9 @@ app.layout = html.Div([
                 figure = go.Figure(
                     data=[
                         go.Bar(
-                            x=ds["group_id"],
-                            y=ds["Estimado"],
-                            name = "Total Sprint"
+                            x=bySprint["group_id"],
+                            y=bySprint["Estimado"],
+                            name = "Estimativa por Sprint"
 
                         )
                     ],

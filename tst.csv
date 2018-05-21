@@ -1,0 +1,165 @@
+,Assignee,Estimado,Plataformas,Priority,Realizado,Status,created_at,group_id,name,updated_at
+0,,,Fleet Starter,,,,2018-05-01T16:54:48Z,sprint_5,[IOS] - Mudar mascara no Front para considerar 7 dígitos no hodômetro,2018-05-17T19:34:08Z
+1,,,,,,,2018-04-16T13:11:08Z,sprint_5,Subir versão com as bibliotecas atualizadas para AppStore,2018-05-17T19:34:03Z
+2,,,,,,,2018-05-16T17:43:44Z,sprint_5,Exportar dados do SSend.me para estatísticas da plataforma,2018-05-17T19:11:10Z
+3,,,,,,,2018-04-23T12:36:32Z,sprint_5,Na API marcas e modelos incluir mais um endpoint para retornar Timestamp contendo a data da ultima atualização,2018-05-17T19:06:23Z
+4,,,Fleet Starter,,,,2018-05-16T18:45:34Z,sprint_5,No Fleet starter apontar para a api de prod. (Marcas e modelos),2018-05-17T18:09:22Z
+5,,,,,,,2018-05-16T19:01:32Z,sprint_5,Arrumar chamada de marcas e modelos (copy),2018-05-17T17:34:35Z
+6,,,,,,,2018-04-23T12:35:00Z,sprint_5,Na API marcas e modelos mudar a validade do token para 1 dia,2018-05-17T14:30:56Z
+7,,,Fleet Starter,,,,2018-05-01T16:54:27Z,sprint_5,[Android] - Mudar mascara no Front para considerar 7 dígitos no hodômetro,2018-05-17T14:30:13Z
+8,,,Fleet Elite,,,,2018-05-04T18:40:14Z,sprint_5,Investigar instabilidade do ambiente fleet elite (copy),2018-05-17T11:36:21Z
+9,,,Android ML,,,,2018-05-16T12:20:10Z,sprint_5,Testar persistência de dados (Marcas e Modelos) para uso offline (copy) (copy),2018-05-16T20:18:35Z
+10,,,Fleet Starter,,,,2018-05-16T20:16:55Z,sprint_5,"[iOS] Depois de finalizar a viagem, no próprio APP ou web, permitir inserir observações (copy)",2018-05-16T20:17:51Z
+11,,,Fleet Starter,,,,2018-05-16T20:16:59Z,sprint_5,"[Android] Depois de finalizar a viagem, no próprio APP ou web, permitir inserir observações (copy)",2018-05-16T20:17:50Z
+12,,,Fleet Starter,,,,2018-04-02T17:26:13Z,sprint_5,"[WEB] Depois de finalizar a viagem, no próprio APP ou web, permitir inserir observações",2018-05-16T20:16:37Z
+13,,,Fleet Starter,,,,2018-04-02T17:20:12Z,sprint_5,Botão para vincular todos colaboradores cadastrados em todos carros pool.,2018-05-16T19:58:06Z
+14,,,,,,,2018-05-15T17:25:49Z,sprint_476,Arrumar chamada de marcas e modelos,2018-05-16T19:03:23Z
+15,,,,,,,2018-05-16T18:33:38Z,sprint_5,Implementar push notification nos apps android APP e fleet IOS (copy),2018-05-16T19:02:53Z
+16,,,Fleet Starter,,,,2018-05-11T15:55:03Z,sprint_476,[BUG] - Investigar erro durante processo de reservada de viagem,2018-05-16T18:59:49Z
+17,,,,,,,2018-05-04T13:37:26Z,sprint_476,Deploy de Marcas e modelos para o Google App Engine,2018-05-16T18:59:40Z
+18,,,CarroramaApp,,,,2018-05-16T12:17:23Z,sprint_5,(ANDROID)Criar tela para auxiliar o usuário ao selecionar seu veículo (copy) (copy),2018-05-16T18:55:32Z
+19,,,CarroramaApp,,,,2018-05-16T12:20:04Z,sprint_5,(ANDROID)Implementar a persistência de dados (Marcas e Modelos) para uso offline (copy) (copy),2018-05-16T18:52:57Z
+20,,,,,,,2018-05-04T18:29:25Z,sprint_45,"Implementar ambientes de DEV, Homologação e PROD para Mongo DB (copy)",2018-05-16T18:51:30Z
+21,,,CarroramaApp,,,,2018-05-16T18:36:29Z,sprint_5,Arquitetura de Push notification,2018-05-16T18:47:48Z
+22,,,,,,,2018-05-04T18:41:03Z,sprint_5,"Implementar push notification nos apps android APP, ML e fleet android(copy)",2018-05-16T18:35:01Z
+23,,,Raizen,,,,2018-05-16T17:47:11Z,sprint_5,Criar um app Engine para leitura dos dados no bigQuery,2018-05-16T18:27:09Z
+24,,,Raizen,,,,2018-05-16T17:44:41Z,sprint_5,extração dos dados do firebase para google cloud (copy),2018-05-16T18:24:50Z
+25,,,Fleet Starter,,,,2018-05-01T16:54:48Z,sprint_5,[IOS] - Mudar mascara no Front para considerar 7 dígitos no hodômetro,2018-05-17T19:34:08Z
+26,,,,,,,2018-04-16T13:11:08Z,sprint_5,Subir versão com as bibliotecas atualizadas para AppStore,2018-05-17T19:34:03Z
+27,,,,,,,2018-05-16T17:43:44Z,sprint_5,Exportar dados do SSend.me para estatísticas da plataforma,2018-05-17T19:11:10Z
+28,,,,,,,2018-04-23T12:36:32Z,sprint_5,Na API marcas e modelos incluir mais um endpoint para retornar Timestamp contendo a data da ultima atualização,2018-05-17T19:06:23Z
+29,,,Fleet Starter,,,,2018-05-16T18:45:34Z,sprint_5,No Fleet starter apontar para a api de prod. (Marcas e modelos),2018-05-17T18:09:22Z
+30,,,,,,,2018-05-16T19:01:32Z,sprint_5,Arrumar chamada de marcas e modelos (copy),2018-05-17T17:34:35Z
+31,,,,,,,2018-04-23T12:35:00Z,sprint_5,Na API marcas e modelos mudar a validade do token para 1 dia,2018-05-17T14:30:56Z
+32,,,Fleet Starter,,,,2018-05-01T16:54:27Z,sprint_5,[Android] - Mudar mascara no Front para considerar 7 dígitos no hodômetro,2018-05-17T14:30:13Z
+33,,,Fleet Elite,,,,2018-05-04T18:40:14Z,sprint_5,Investigar instabilidade do ambiente fleet elite (copy),2018-05-17T11:36:21Z
+34,,,Android ML,,,,2018-05-16T12:20:10Z,sprint_5,Testar persistência de dados (Marcas e Modelos) para uso offline (copy) (copy),2018-05-16T20:18:35Z
+35,,,Fleet Starter,,,,2018-05-16T20:16:55Z,sprint_5,"[iOS] Depois de finalizar a viagem, no próprio APP ou web, permitir inserir observações (copy)",2018-05-16T20:17:51Z
+36,,,Fleet Starter,,,,2018-05-16T20:16:59Z,sprint_5,"[Android] Depois de finalizar a viagem, no próprio APP ou web, permitir inserir observações (copy)",2018-05-16T20:17:50Z
+37,,,Fleet Starter,,,,2018-04-02T17:26:13Z,sprint_5,"[WEB] Depois de finalizar a viagem, no próprio APP ou web, permitir inserir observações",2018-05-16T20:16:37Z
+38,,,Fleet Starter,,,,2018-04-02T17:20:12Z,sprint_5,Botão para vincular todos colaboradores cadastrados em todos carros pool.,2018-05-16T19:58:06Z
+39,,,,,,,2018-05-15T17:25:49Z,sprint_476,Arrumar chamada de marcas e modelos,2018-05-16T19:03:23Z
+40,,,,,,,2018-05-16T18:33:38Z,sprint_5,Implementar push notification nos apps android APP e fleet IOS (copy),2018-05-16T19:02:53Z
+41,,,Fleet Starter,,,,2018-05-11T15:55:03Z,sprint_476,[BUG] - Investigar erro durante processo de reservada de viagem,2018-05-16T18:59:49Z
+42,,,,,,,2018-05-04T13:37:26Z,sprint_476,Deploy de Marcas e modelos para o Google App Engine,2018-05-16T18:59:40Z
+43,,,CarroramaApp,,,,2018-05-16T12:17:23Z,sprint_5,(ANDROID)Criar tela para auxiliar o usuário ao selecionar seu veículo (copy) (copy),2018-05-16T18:55:32Z
+44,,,CarroramaApp,,,,2018-05-16T12:20:04Z,sprint_5,(ANDROID)Implementar a persistência de dados (Marcas e Modelos) para uso offline (copy) (copy),2018-05-16T18:52:57Z
+45,,,,,,,2018-05-04T18:29:25Z,sprint_45,"Implementar ambientes de DEV, Homologação e PROD para Mongo DB (copy)",2018-05-16T18:51:30Z
+46,,,CarroramaApp,,,,2018-05-16T18:36:29Z,sprint_5,Arquitetura de Push notification,2018-05-16T18:47:48Z
+47,,,,,,,2018-05-04T18:41:03Z,sprint_5,"Implementar push notification nos apps android APP, ML e fleet android(copy)",2018-05-16T18:35:01Z
+48,,,Raizen,,,,2018-05-16T17:47:11Z,sprint_5,Criar um app Engine para leitura dos dados no bigQuery,2018-05-16T18:27:09Z
+49,,,Raizen,,,,2018-05-16T17:44:41Z,sprint_5,extração dos dados do firebase para google cloud (copy),2018-05-16T18:24:50Z
+50,,,,,,,2018-05-16T18:21:25Z,sprint_45,Carrorama starter - automações com lat long e imagens,2018-05-16T18:21:26Z
+51,,,,,,,2018-05-04T18:41:10Z,sprint_5,Criar painel de envio de push notification (copy),2018-05-16T18:05:17Z
+52,,,,,,,2018-05-03T15:07:11Z,sprint_476,extração dos dados do firebase para google cloud,2018-05-16T17:45:22Z
+53,,,Android ML,,,,2018-05-04T18:28:46Z,sprint_476,Implementar a persistência de dados (Marcas e Modelos) para uso offline (copy),2018-05-16T17:39:39Z
+54,,,CarroramaApp,,,,2018-05-04T18:28:08Z,sprint_476,(ANDROID)Criar tela para auxiliar o usuário ao selecionar seu veículo (copy),2018-05-16T13:52:24Z
+55,,,,,,,2018-05-14T12:41:02Z,sprint_476,"[BUG] Botão sem ação em ""Reportar um Problema""",2018-05-16T13:52:06Z
+56,,,,,,,2018-05-02T18:01:36Z,sprint_476,[ANDROID] Correção dos eventos de tagbook,2018-05-16T12:39:24Z
+57,,,,,,,2018-05-16T12:23:08Z,sprint_476,"função de OCR para documentação do carro, e documentos no geral (copy) (copy)",2018-05-16T12:23:14Z
+58,,,,,,,2018-05-16T12:23:00Z,sprint_476,função de  OCR para placa do carro (copy) (copy),2018-05-16T12:23:01Z
+59,,,,,,,2018-05-07T14:14:31Z,sprint_476,[Testar] Carrorama Multilaser Marcas e Modelos.,2018-05-15T17:25:15Z
+60,,,,,,,2018-05-04T19:12:16Z,sprint_476,Transferência de caso OCR,2018-05-15T17:24:55Z
+61,,,,,,,2018-05-04T18:40:11Z,sprint_476,"função de OCR para documentação do carro, e documentos no geral (copy)",2018-05-15T17:24:52Z
+62,,,,,,,2018-05-04T18:40:07Z,sprint_476,função de  OCR para placa do carro (copy),2018-05-15T17:24:51Z
+63,,,,,,,2018-05-04T18:59:51Z,sprint_476,Remodelagem dos dados no SQLite,2018-05-15T17:15:03Z
+64,,,,,,,2018-05-08T14:42:02Z,sprint_476,[iOS] melhoria no app carrorama,2018-05-15T15:22:09Z
+65,,,,,,,2018-05-14T12:40:35Z,sprint_476,[BUG] Crash em manutenção ao tentar inserir Data,2018-05-15T15:01:15Z
+66,,,,,,,2018-04-27T13:15:16Z,sprint_476,[BUG] Ao inserir data no Android sempre o ano vai para 1900,2018-05-15T15:01:14Z
+67,,,,,,,2018-05-04T18:48:26Z,sprint_476,(ANDROID E IOS) Melhoria no loop de seleção de protocolos Porto Seguro,2018-05-15T13:04:58Z
+68,,,,,,,2018-05-04T18:27:42Z,sprint_476,(IOS)Criar tela para auxiliar o usuário ao selecionar seu veículo (copy),2018-05-14T14:33:32Z
+69,,,,,,,2018-05-10T14:21:27Z,sprint_476,[BUG] Android 8.0 da Crash ao abrir tela de seleção de Combustível,2018-05-14T12:39:44Z
+70,,,CarroramaApp,,,,2018-05-04T18:28:11Z,sprint_476,(ANDROID)Implementar a persistência de dados (Marcas e Modelos) para uso offline (copy),2018-05-14T12:39:25Z
+71,,,,,,,2018-03-20T21:13:42Z,sprint_476,Telemetria no cloud,2018-05-10T18:34:12Z
+72,,,,,,,2018-05-04T19:10:21Z,sprint_476,Criar campo de busca na tela de seleção de veículo,2018-05-09T20:27:56Z
+73,,,,,,,2018-05-04T18:41:06Z,sprint_476,Desenhar tela de seleção de veículo (copy),2018-05-09T18:59:20Z
+74,,,,,,,2018-05-04T18:38:42Z,sprint_476,[Testar] Carrorama Starter (mudança de marcas e modelo) (copy),2018-05-07T18:26:33Z
+75,,,"APP, ML",,,,2018-05-04T18:38:38Z,sprint_476,[Testar] Carrorama app (copy),2018-05-07T18:26:31Z
+76,,,,,,,2018-05-04T18:38:45Z,sprint_5,[Testar] Raízen com veículos e configurações de etanol diferentes (copy),2018-05-07T18:26:29Z
+77,,,Fleet Starter,,,,2018-04-26T20:13:24Z,sprint_4,[Testar] Alterações do hodômetro no Fleet Starter,2018-05-07T14:11:31Z
+78,,,,,,,2018-03-22T20:24:49Z,sprint_4,função de  OCR para placa do carro,2018-05-07T12:45:48Z
+79,,,"APP, ML",,,,2018-04-19T17:33:58Z,sprint_4,[Testar] Carrorama app,2018-05-04T18:47:30Z
+80,,,,,,,2018-04-19T17:34:02Z,sprint_4,[Testar] Carrorama Starter (mudança de marcas e modelo),2018-05-04T18:47:30Z
+81,,,,,,,2018-04-19T17:34:05Z,sprint_4,[Testar] Raízen com veículos e configurações de etanol diferentes,2018-05-04T18:47:29Z
+82,,,,,,,2018-05-04T18:29:30Z,sprint_45,Implementar automação de entrega do app Gasoteste (copy),2018-05-04T18:29:47Z
+83,,,,,,,2018-05-04T18:29:22Z,sprint_45,criar rotinas de deploy (copy),2018-05-04T18:29:34Z
+84,,,,,,,2018-04-26T13:09:16Z,sprint_4,Implementar automação de entrega do app Gasoteste,2018-05-04T18:29:18Z
+85,,,,,,,2018-04-19T17:25:06Z,sprint_4,"Implementar ambientes de DEV, Homologação e PROD para Mongo DB",2018-05-04T18:29:14Z
+86,,,,,,,2018-04-19T17:25:15Z,sprint_4,criar rotinas de deploy,2018-05-04T18:29:13Z
+87,,,Android ML,,,,2018-04-19T17:24:46Z,sprint_4,Implementar a persistência de dados (Marcas e Modelos) para uso offline,2018-05-04T18:28:48Z
+88,,,,,,,2018-03-21T19:11:36Z,sprint_45,Integração do OBDII no iOS na arquitetura MVC,2018-05-04T18:26:44Z
+89,,,CarroramaApp,,,,2018-04-19T17:24:01Z,sprint_4,(IOS)Implementar o envio e recebimento de veículos para atualização de usuários antigos,2018-05-04T18:25:03Z
+90,,,,,,,2018-04-19T17:31:58Z,sprint_4,(IOS)Criar tela para auxiliar o usuário ao selecionar seu veículo,2018-05-04T18:25:02Z
+91,,,CarroramaApp,,,,2018-04-19T17:31:46Z,sprint_4,(ANDROID)Criar tela para auxiliar o usuário ao selecionar seu veículo,2018-05-04T18:25:00Z
+92,,,CarroramaApp,,,,2018-04-19T17:24:25Z,sprint_4,(ANDROID)Implementar a persistência de dados (Marcas e Modelos) para uso offline,2018-05-04T18:24:59Z
+93,,,CarroramaApp,,,,2018-04-19T17:24:34Z,sprint_4,(ANDROID)Implementar o envio e recebimento de veículos para atualização de usuários antigos,2018-05-04T18:24:58Z
+94,,,,,,,2018-03-22T20:24:52Z,sprint_4,"função de OCR para documentação do carro, e documentos no geral",2018-05-04T18:24:53Z
+95,,,,,,,2018-04-19T17:52:41Z,sprint_4,Investigar instabilidade do ambiente fleet elite,2018-05-04T18:24:51Z
+96,,,,,,,2018-04-19T18:03:12Z,sprint_4,Implementar push notification nos apps android e ios,2018-05-04T18:24:50Z
+97,,,,,,,2018-04-19T18:05:54Z,sprint_4,Desenhar tela de seleção de veículo,2018-05-04T18:24:48Z
+98,,,,,,,2018-04-19T18:06:50Z,sprint_4,Criar painel de envio de push notification,2018-05-04T18:24:47Z
+99,,,,,,,2018-04-19T17:37:45Z,sprint_4,(IOS PORTO)Solucionar problema de conexão com KWP FAST,2018-05-04T16:52:07Z
+100,,,CarroramaApp,,,,2018-04-19T17:23:41Z,sprint_4,(IOS)Implementar a persistência de dados (Marcas e Modelos) para uso offline,2018-05-03T19:30:31Z
+101,,,Fleet Starter,,,,2018-04-25T13:08:34Z,sprint_4,Mudar mascara no Front para considerar 7 dígitos no hodômetro,2018-05-01T17:06:27Z
+102,,,Fleet Starter,,,,2018-04-19T17:47:46Z,sprint_4,(IOS) Enviar versão com bibliotecas atualizadas para análise da Apple,2018-04-23T14:33:29Z
+103,,,CarroramaApp,,,,2018-04-19T17:23:22Z,sprint_4,(IOS)Implementar a requisição para obter cópia da base de Marcas e Modelos,2018-04-20T18:18:59Z
+104,,,Android ML,,,,2018-03-29T17:20:08Z,sprint_3,Implementar o envio e recebimento de veículos para atualização de usuários antigos,2018-04-19T17:42:25Z
+105,,,,,,,2018-03-29T18:56:18Z,sprint_3,[Testar] Raízen com veículos e configurações de etanol diferentes,2018-04-19T17:34:33Z
+106,,,,,,,2018-03-29T18:50:45Z,sprint_3,[Testar] Carrorama Starter (mudança de marcas e modelo),2018-04-19T17:34:32Z
+107,,,"APP, ML",,,,2018-03-29T18:50:03Z,sprint_3,[Testar] Carrorama app,2018-04-19T17:34:31Z
+108,,,CarroramaApp,,,,2018-03-29T17:53:57Z,sprint_3,Atualizar bibliotecas e dependências do projeto Carrorama App,2018-04-19T17:33:47Z
+109,,,,,,,2018-03-29T18:41:06Z,sprint_3,criar rotinas de deploy,2018-04-19T16:51:40Z
+110,,,CarroramaApp,,,,2018-03-29T17:19:33Z,sprint_3,(ANDROID)Implementar o envio e recebimento de veículos para atualização de usuários antigos,2018-04-19T16:51:34Z
+111,,,CarroramaApp,,,,2018-03-29T18:06:45Z,sprint_3,(IOS)Implementar o envio e recebimento de veículos para atualização de usuários antigos (copy),2018-04-19T16:51:29Z
+112,,,CarroramaApp,,,,2018-03-29T18:06:00Z,sprint_3,(IOS)Implementar a persistência de dados (Marcas e Modelos) para uso offline,2018-04-19T16:51:27Z
+113,,,,,,,2018-03-29T18:40:05Z,sprint_3,criar os end-points para retornar os Jsons de acordo com o combinado,2018-04-17T17:50:02Z
+114,,,CarroramaApp,,,,2018-03-29T18:04:05Z,sprint_3,(IOS) Implementar autenticação no Web Service para Marcas e Modelos,2018-04-17T17:29:32Z
+115,,,CarroramaApp,,,,2018-03-29T18:05:25Z,sprint_3,(IOS)Implementar a requisição para obter cópia da base de Marcas e Modelos,2018-04-17T17:29:30Z
+116,,,Fleet Starter,,,,2018-04-12T17:15:39Z,sprint_3,[BUG] Finalizar viagem retroativa está limitando com o horário atual.,2018-04-13T20:50:44Z
+117,,,Fleet Starter,,,,2018-04-12T18:49:02Z,sprint_3,[BUG] Ao iniciar Pool aparece erro de data.,2018-04-13T14:08:27Z
+118,,,Fleet Starter,,,,2018-04-12T19:17:25Z,sprint_3,"[BUG] Ao tentar cadastrar uma reserva, após preencher a data aparece msg de erro.",2018-04-13T14:04:41Z
+119,,,Fleet Starter,,,,2018-04-12T18:43:58Z,sprint_3,[BUG] Colocar modelos em ordem alfabética e somente as primeiras letras de cada palavra em maiúsculo.,2018-04-13T14:04:05Z
+120,,,Fleet Starter,,,,2018-03-29T17:26:48Z,sprint_3,Refatorar módulos do sistema que utilizam as tabelas de marcas e modelos,2018-04-13T12:32:23Z
+121,,,Fleet Starter,,,,2018-03-29T17:28:25Z,sprint_3,Atualizar todos os registros do sistema para utilizar a nova tabela de marcas e modelos,2018-04-13T12:32:22Z
+122,,,,,,,2018-04-11T13:01:09Z,sprint_3,[BUG] BigData Raízen,2018-04-13T12:31:15Z
+123,,,Android ML,,,,2018-03-29T17:20:04Z,sprint_3,Implementar a persistência de dados (Marcas e Modelos) para uso offline,2018-04-12T19:32:53Z
+124,,,Fleet Starter,,,,2018-03-29T17:23:15Z,sprint_3,Implementar a requisição para obter cópia da base de Marcas e Modelos,2018-04-12T19:25:18Z
+125,,,App Fleet,,,,2018-03-29T17:53:34Z,sprint_3,Atualizar bibliotecas e dependências do projeto Carrorama Fleet,2018-04-12T16:47:37Z
+126,,,CarroramaApp,,,,2018-03-29T17:19:06Z,sprint_3,(ANDROID)Implementar a persistência de dados (Marcas e Modelos) para uso offline,2018-04-12T13:16:10Z
+127,,,,,,,2018-04-11T13:00:38Z,sprint_3,[BUG] Conexão com o OBD Gasoteste está com problema.,2018-04-12T13:13:54Z
+128,,,Android ML,,,,2018-03-29T17:19:55Z,sprint_3,Implementar a requisição para obter cópia da base de Marcas e Modelos,2018-04-10T20:45:59Z
+129,,,CarroramaApp,,,,2018-03-29T17:18:00Z,sprint_3,(ANDROID)Implementar a requisição para obter cópia da base de Marcas e Modelos,2018-04-10T20:45:37Z
+130,,,CarroramaApp,,,,2018-03-29T17:17:31Z,sprint_3,(ANDROID)Implementar autenticação no Web Service para Marcas e Modelos,2018-04-10T20:44:58Z
+131,,,Android ML,,,,2018-03-29T17:19:51Z,sprint_3,Implementar autenticação no Web Service para Marcas e Modelos,2018-04-10T20:40:26Z
+132,,,,,,,2018-03-29T18:53:50Z,sprint_3,[Testar] Cenários Raízen (simulador),2018-04-06T19:05:41Z
+133,,,,,,,2018-03-29T18:39:34Z,sprint_3,Estruturar o projeto em springBot,2018-04-06T17:37:28Z
+134,,,"Raizen, Android ML",,,,2018-03-28T13:37:12Z,sprint_3,Sempre que a leitura de etanol der abaixo de 30% cravar 27%,2018-04-06T17:26:22Z
+135,,,,,,,2018-03-29T17:22:48Z,sprint_3,Implementar autenticação no Web Service para Marcas e Modelos,2018-04-05T21:25:24Z
+136,,,Raizen,,,,2018-03-29T18:13:24Z,sprint_3,Adaptar a POC Raizen para enviar as informações completas,2018-04-05T21:02:20Z
+137,,,,,,,2018-03-29T18:38:37Z,sprint_3,Implementar Mongo DB escrever as coleções iniciais,2018-04-04T20:48:00Z
+138,,,Raizen,,,,2018-03-29T18:21:20Z,sprint_3,Adicionar campos obrigatórios no POC Raizen,2018-04-03T20:33:38Z
+139,,,Fleet Starter,,,,2018-03-29T17:56:38Z,sprint_3,Corrigir bug do termino do vinculo do condutor,2018-04-03T20:00:44Z
+140,,,Raizen,,,,2018-03-29T18:13:42Z,sprint_3,Atualizar registros já existentes no Firebase,2018-04-03T19:36:23Z
+141,,,,,,,2018-03-29T18:52:49Z,sprint_3,[Testar] app porto para garantir novas api`s,2018-04-03T16:42:19Z
+142,,,,,,,2018-03-29T18:39:09Z,sprint_3,"Implementar ambientes de DEV, Homologação e PROD para Mongo DB",2018-04-03T12:02:49Z
+143,,,Porto,,,,2018-03-29T17:52:44Z,sprint_3,Atualizar bibliotecas e dependências do projeto Porto,2018-04-03T11:47:20Z
+144,,,,,,,2018-03-21T18:25:15Z,next_week,Documentação de código (Android) Porto Seguro (copy),2018-03-29T17:13:54Z
+145,,,"Fleet, Elite",,,,2018-03-20T20:55:43Z,next_week,Levantamento das  reclamações de fleet elite e starter,2018-03-28T21:19:05Z
+146,,,"WS, BD, IOS, Android",,,,2018-03-21T18:52:50Z,next_week,levantar informações sobre marcas e modelos com Naian e documentar par ao time de dev,2018-03-28T14:17:20Z
+147,,,Android ML,,,,2018-03-19T13:08:46Z,next_week,Criar o módulo abastecimento,2018-03-28T14:12:11Z
+148,,,"IOS, Android, ML",,,,2018-03-21T13:15:32Z,next_week,O app deve ser capaz de detectar quando o usuário está no veiculo em movimento,2018-03-28T13:39:15Z
+149,,,,,,,2018-03-21T19:12:56Z,next_week,Integrar o coreMotion app IOs de forma a detectar se o usuário está dirigindo,2018-03-28T13:13:27Z
+150,,,Android ML,,,,2018-03-21T13:52:22Z,next_week,end2end POC,2018-03-27T15:14:53Z
+151,,,IosFirebase,,,,2018-03-21T19:00:53Z,next_week,Integrar o firebase no app IOS para um tipo de informação,2018-03-27T14:20:06Z
+152,,,,,,,2018-03-14T18:50:49Z,topics,Finalização da documentação de uso da POC,2018-03-26T13:05:57Z
+153,,,,,,,2018-03-21T19:05:16Z,next_week,Terminar a subida da versão atual da versão Ios,2018-03-23T13:09:43Z
+154,,,,,,,2018-03-14T18:57:09Z,topics,Documentação de código (Android) Porto Seguro,2018-03-21T18:25:25Z
+155,,,,,,,2018-03-14T19:06:00Z,topics,Analisar a arquitetura POC OBD procurando implementar Carrorama Multilaser iOS,2018-03-21T16:42:51Z
+156,,,,,,,2018-03-14T18:54:49Z,topics,Mapeamento de migração Fleet Elite,2018-03-21T12:47:02Z
+157,,,,,,,2018-03-14T19:00:33Z,topics,Integração do Firebase no Carrorama Multilaser,2018-03-20T19:57:05Z
+158,,,,,,,2018-03-14T18:59:40Z,topics,Atualização do SDK Android no Carrorama Multilaser,2018-03-19T15:24:31Z
+159,,,,,,,2018-03-14T19:03:00Z,topics,Obter mais informação sobre o problema encontrado na Ci&T,2018-03-19T14:04:52Z
+160,,,,,,,2018-03-14T18:49:27Z,topics,Conclusão da documentação de uso Porto,2018-03-19T14:03:50Z
+161,,,,,,,2018-03-14T18:52:58Z,topics,Atualização do SDK Android no Carrorama APP,2018-03-19T11:35:27Z
+162,,,,,,,2018-03-14T18:58:38Z,topics,Mapeamento de problemas iPhoneX,2018-03-16T14:57:47Z
+163,,,,,,,2018-03-14T18:54:12Z,topics,Simulação dos produtos Going2 no iPhone X,2018-03-16T14:57:45Z

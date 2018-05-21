@@ -100,6 +100,6 @@ def handle_ds(data):
     return data
 
  
-ds = handle_ds(prepare_data())
-ds.to_csv("complete.csv")
+#ds = handle_ds(prepare_data())
+#ds.to_csv("complete.csv")
 #print(ds.head(20))
