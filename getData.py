@@ -36,12 +36,19 @@ def get_board_pulses(board_id):
 
     return lst_of_pulses
 
-        
+def get_board_ids(board_id):
+    print("def get_board_ids(board_id):")
+    resp = requests.get("https://api.monday.com:443/v1/boards/"+str(board_id)+"/groups.json?show_archived=false&api_key="+str(KEY_TOKEN))
+    if len(resp.content)!=2:
+        return json.loads(resp.content)
+
+
 
 def prepare_data():
     mb = get_board_by_name("MainBoard",get_all_boards())
     x = get_board_pulses(mb["id"])
     lst_of_boards = []
+    lst_of_groups = get_board_ids(mb["id"])
     for i in x:
         lst_of_boards.append(json.loads(i))
 
@@ -52,7 +59,7 @@ def prepare_data():
             rec["name"] = d["pulse"]["name"]
             rec["created_at"] = d["pulse"]["created_at"]
             rec["updated_at"] = d["pulse"]["updated_at"]
-            rec["group_id"] = d["board_meta"]["group_id"]
+            rec["group_id"] = [x["title"] for x in lst_of_groups if x["id"]== d["board_meta"]["group_id"] ][0]
             ## handling column_values 
             rec["Assignee"] = None
             rec["Priority"] = None
