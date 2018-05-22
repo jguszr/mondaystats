@@ -75,7 +75,6 @@ def prepare_data():
                         rec["Realizado"] = handle_internal_value(c, "Realizado", "")
                     if rec["Plataformas"] == None:
                         rec["Plataformas"] = handle_internal_value(c, "Plataformas", "")
-                    print(rec)
                 except:
                     continue
             

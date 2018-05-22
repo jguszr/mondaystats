@@ -4,6 +4,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
+import plotly.tools as tls
 import pandas as  pd
 import getData 
 
@@ -12,8 +13,9 @@ colors = {
     'text': '#7FDBFF'
 }
 
-ds = getData.handle_ds(getData.prepare_data())
-bySprint = ds.groupby(ds.group_id)["Estimado"].sum()
+
+ds = getData.handle_ds(getData.prepare_data()).sort_values("group_id")
+bySprint = ds.groupby(ds.group_id)["Estimado","Realizado"].sum()
 app = dash.Dash("Going2 Power !")
 
 server = app.server
@@ -37,10 +39,14 @@ app.layout = html.Div([
                 figure = go.Figure(
                     data=[
                         go.Bar(
-                            x=bySprint["group_id"],
-                            y=bySprint["Estimado"],
-                            name = "Estimativa por Sprint"
-
+                            x=ds["group_id"].unique(),
+                            y= bySprint["Estimado"],
+                            name = "Estimado"
+                        ),
+                        go.Bar(
+                            x=ds["group_id"].unique(),
+                            y=bySprint["Realizado"],
+                            name = "Realizado"
                         )
                     ],
                     layout=go.Layout(
